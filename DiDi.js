@@ -10,7 +10,7 @@ const DIDI_CITY = process.env.DIDI_CITY
 const SEND_KEY = process.env.SEND_KEY
 
 async function downFile () {
-    const url = 'https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js'
+    const url = 'https://github.com/gyb33/github_zZPiglet_Task/blob/master/DiDi/DiDi_new.js'
     await download(url, './')
 }
 
